@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- JUDUL & DESKRIPSI UTAMA -->
+  <title>Nama Brand / Produk Anda - Solusi Terbaik untuk Kebutuhan Anda</title>
+  <meta name="description" content="Dapatkan penawaran terbaik dan promo eksklusif hanya hari ini. Klik untuk pesan langsung via WhatsApp!">
+  <link rel="canonical" href="https://domainanda.com/">
+
+  <!-- ========================================== -->
+  <!-- META TAG MEDIA SOSIAL (WHATSAPP, FB, TIKTOK) -->
+  <!-- ========================================== -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://domainanda.com/">
+  <meta property="og:title" content="🔥 Promo Spesial: Solusi Terbaik untuk Anda!">
+  <meta property="og:description" content="Diskon hingga 50% hanya untuk minggu ini. Pesan mudah, cepat, dan terpercaya!">
+  
+  <!-- PENTING: Gunakan URL gambar absolut (diawali https://) -->
+  <!-- Ukuran rekomendasi: 1200 x 630 pixel, format JPG atau PNG (< 1MB) -->
+  <meta property="og:image" content="https://domainanda.com/assets/banner-preview.jpg">
+  <meta property="og:image:secure_url" content="https://domainanda.com/assets/banner-preview.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Preview Promo Produk">
+  <meta property="og:site_name" content="Nama Brand Anda">
+
+  <!-- Meta Tambahan untuk Twitter/X & Parser Modern Lainnya -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="🔥 Promo Spesial: Solusi Terbaik untuk Anda!">
+  <meta name="twitter:description" content="Diskon hingga 50% hanya untuk minggu ini. Pesan mudah, cepat, dan terpercaya!">
+  <meta name="twitter:image" content="https://domainanda.com/assets/banner-preview.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://domainanda.com/favicon.ico">
+
+  <!-- Tailwind CSS CDN untuk Tampilan Cantik & Responsif Cepat -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased font-sans">
+
+  <!-- HEADER / NAVBAR -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div class="font-extrabold text-xl text-blue-600 tracking-tight">BRANDKITA</div>
+      <a href="https://wa.me/6281234567890?text=Halo%20saya%20tertarik%20dengan%20promonya" 
+         target="_blank" 
+         class="bg-green-500 hover:bg-green-600 text-white font-semibold px-4 py-2 rounded-full text-sm transition">
+         Hubungi WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <main class="max-w-4xl mx-auto px-4 py-12 text-center">
+    <!-- Badge Promo -->
+    <span class="inline-block bg-red-100 text-red-600 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-4">
+      Promo Terbatas Minggu Ini
+    </span>
+
+    <!-- Headline Utama -->
+    <h1 class="text-3xl sm:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
+      Tingkatkan Hasil Anda Lebih Cepat Tanpa Ribet
+    </h1>
+
+    <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto mb-8">
+      Solusi all-in-one yang dirancang untuk membantu Anda menghemat waktu dan meningkatkan konversi secara instan.
+    </p>
+
+    <!-- Tombol Aksi Utama (CTA) -->
+    <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+      <a href="https://wa.me/6281234567890?text=Halo%2C%20saya%20mau%20klaim%20diskonnya" 
+         target="_blank" 
+         class="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white font-bold py-3.5 px-8 rounded-xl shadow-lg shadow-green-500/30 transition transform hover:-translate-y-0.5 text-center flex items-center justify-center gap-2">
+         <span>💬 Chat via WhatsApp</span>
+      </a>
+      <a href="#fitur" class="w-full sm:w-auto bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-3.5 px-8 rounded-xl transition text-center">
+        Pelajari Fitur
+      </a>
+    </div>
+
+    <!-- Banner Utama di Halaman -->
+    <div class="rounded-2xl overflow-hidden shadow-2xl border border-gray-100">
+      <img src="https://domainanda.com/assets/banner-preview.jpg" 
+           alt="Banner Utama Promo" 
+           class="w-full object-cover max-h-[450px]">
+    </div>
+  </main>
+
+  <!-- FITUR / KEUNGGULAN -->
+  <section id="fitur" class="bg-white py-14 border-t border-gray-100">
+    <div class="max-w-4xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-center mb-10">Kenapa Harus Memilih Kami?</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="p-6 rounded-xl bg-gray-50 border border-gray-100 text-left">
+          <div class="text-2xl mb-3">⚡</div>
+          <h3 class="font-bold text-lg mb-1">Cepat & Praktis</h3>
+          <p class="text-sm text-gray-600">Proses instan tanpa prosedur rumit. Langsung siap digunakan.</p>
+        </div>
+        <div class="p-6 rounded-xl bg-gray-50 border border-gray-100 text-left">
+          <div class="text-2xl mb-3">🔒</div>
+          <h3 class="font-bold text-lg mb-1">Aman & Terpercaya</h3>
+          <p class="text-sm text-gray-600">Data Anda terjaga dengan standar keamanan enkripsi tertinggi.</p>
+        </div>
+        <div class="p-6 rounded-xl bg-gray-50 border border-gray-100 text-left">
+          <div class="text-2xl mb-3">⭐</div>
+          <h3 class="font-bold text-lg mb-1">Garansi Kepuasan</h3>
+          <p class="text-sm text-gray-600">Dukungan teknis responsif 24/7 siap membantu kendala Anda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-8 text-center text-xs text-gray-400">
+    © 2026 BrandKita. Seluruh hak cipta dilindungi undang-undang.
+  </footer>
+
+</body>
+</html>
